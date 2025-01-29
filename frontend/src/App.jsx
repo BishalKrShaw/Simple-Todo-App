@@ -1,6 +1,9 @@
+
 import "./App.css";
+import Todo from "./components/Todo.jsx";
 
 function App() {
+
   return (
     <div className="container">
       {/* Todo title */}
@@ -14,14 +17,7 @@ function App() {
 
       {/* Todo task will be displayed here */}
       <div id="todos">
-        <div className="todo">
-          <input type="checkbox" name="" id="" />
-          <p>Become and Stay Wealthy</p>
-          <div className="btns">
-            <span class="material-symbols-outlined">edit</span>
-            <span class="material-symbols-outlined">delete</span>
-          </div>
-        </div>
+        <Todo/>
       </div>
     </div>
   );
